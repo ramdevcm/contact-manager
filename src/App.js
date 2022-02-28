@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <Container className="spacing">
         <div className="ui two item menu">
-          <NavLink className="item" activeClassName="active" exact to="/">
+          <NavLink className="item" activeClassName="active" exact to="/contacts/">
             Contacts List
           </NavLink>
           <NavLink className="item" activeClassName="active" exact to="/contacts/new">
