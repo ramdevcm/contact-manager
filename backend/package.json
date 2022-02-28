@@ -1,0 +1,55 @@
+{
+  "name": "backend",
+  "description": "contacts API server",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "Binh Nguyen",
+    "email": "binh.nguyen@carpoolagency.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "yarn": ">= 0.18.0"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "start": "nodemon src/",
+    "mocha": "mocha test/ --recursive --exit"
+  },
+  "devDependencies": {
+    "cors": "^2.8.4",
+    "eslint": "^4.10.0",
+    "helmet": "^3.9.0",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "feathers": "^2.1.1",
+    "feathers-configuration": "^0.4.1",
+    "feathers-errors": "^2.6.3",
+    "feathers-hooks": "^2.0.0",
+    "feathers-hooks-common": "^3.0.0",
+    "feathers-mongoose": "^5.0.3",
+    "feathers-rest": "^1.7.2",
+    "feathers-socketio": "^1.6.0",
+    "mongoose": "^6.2.3",
+    "mongoose-type-email": "^1.0.5",
+    "serve-favicon": "^2.4.2",
+    "winston": "^2.3.1"
+  }
+}
