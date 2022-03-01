@@ -1,10 +1,10 @@
 {
-  "host": "http://ec2-13-127-58-116.ap-south-1.compute.amazonaws.com",
+  "host": "localhost",
   "port": 3030,
   "public": "../public/",
   "paginate": {
     "default": 50,
     "max": 50
   },
-  "mongodb": "mongodb+srv://new-user:CZIZYdtAJyS7Ev7W@cluster0.ec48t.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+  "mongodb": "mongodb://localhost:27017/contactdb"
 }
