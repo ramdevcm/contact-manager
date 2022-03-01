@@ -42,7 +42,7 @@ class ContactFormPage extends Component {
       <div>
         {
           this.state.redirect ?
-          <Redirect to="/" /> :
+          <Redirect to="/lists" /> :
           <ContactForm contact={this.props.contact} loading={this.props.loading} onSubmit={this.submit} />
         }
       </div>
