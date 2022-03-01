@@ -1,5 +1,5 @@
 {
-  "host": "localhost",
+  "host": "http://ec2-13-127-58-116.ap-south-1.compute.amazonaws.com",
   "port": 3030,
   "public": "../public/",
   "paginate": {
