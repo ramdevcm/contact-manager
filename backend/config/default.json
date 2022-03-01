@@ -1,5 +1,5 @@
 {
-  "host": "https://ramdevcm.github.io/contact-manager/",
+  "host": "https://ramdevcm.github.io/list/",
   "port": 8080,
   "public": "../public/",
   "paginate": {
