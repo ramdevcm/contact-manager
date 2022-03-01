@@ -1,6 +1,6 @@
 {
-  "host": "localhost",
-  "port": 3030,
+  "host": "https://ramdevcm.github.io/contact-manager/",
+  "port": 8080,
   "public": "../public/",
   "paginate": {
     "default": 50,
