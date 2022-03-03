@@ -1,8 +1,6 @@
-# REDUX CRUD EXAMPLE
-<!-- 
-This a basic crud react-redux-featherjs application for managing contacts. It currently uses MongoDB for the database and FeathersJS for the REST API server.
+# ZOHO - Contact Management Application
+This a basic contact management application for managing contacts. It currently uses MongoDB for the database and FeathersJS for the REST API server.
 
-https://www.sitepoint.com/crud-app-react-redux-feathersjs/ -->
 
 ##  How to install
 
@@ -38,5 +36,7 @@ npm start
 ```
 
 Your default web browser will be launched automatically with the url http://localhost:3000
+
+### This project is currently hosted at https://coho-ontact-manager.herokuapp.com/lists/ and is not connected with the feathersjs API Server due to the deployment unavailability.
 
 
